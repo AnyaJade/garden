@@ -7,6 +7,9 @@ book:
   date: today
   chapters:
     - index.qmd
+    - fruit-veg-herbs.qmd
+    - indoor.qmd
+    - outdoor.qmd
   repo-url: https://github.com/AnyaJade/garden
   repo-branch: main
 
