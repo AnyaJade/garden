@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "garden"
+  author: "Anya Ferguson"
+  date: today
+  chapters:
+    - index.qmd
+  repo-url: https://github.com/AnyaJade/garden
+  repo-branch: main
+
+execute: 
+  eval: true
+  echo: false
+  warning: false
+
+format:
+  html:
+    theme: 
+      dark: darkly
+      light: cosmo
+
+
+
