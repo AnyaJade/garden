@@ -1,3 +1,41 @@
 # Calendar
 
+```{r}
+current_month <- Sys.Date() |>
+  lubridate::floor_date("month") |>
+  lubridate::month()
+
+renumber_month <- function(original_month, start_month) {
+  modifier <- 12 - start_month + 1
+  
+  renumbered_month <- original_month + modifier
+  
+  if(renumbered_month > 12) {
+    renumbered_month <- renumbered_month - 12
+  }
+  
+  return(renumbered_month)
+}
+
+data <- data.frame(month = month.name, 
+           tasks = "placeholder") |>
+  dplyr::rowwise() |>
+  dplyr::mutate(original_month_number = match(month, month.name),
+                order = renumber_month(original_month_number, current_month)) |>
+  dplyr::ungroup() |>
+  dplyr::arrange(order) |>
+  dplyr::select(month, tasks)
+
+format_table <- function(data) {
+  
+  table <- data |>
+    kableExtra::kable() |>
+    kableExtra::kable_styling()
+  
+  return(table)
+}
+
+data |>
+  format_table()
+```
 
