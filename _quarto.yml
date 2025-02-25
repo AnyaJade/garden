@@ -24,6 +24,7 @@ format:
     theme: 
       dark: darkly
       light: cosmo
+    number-sections: false
 
 
 

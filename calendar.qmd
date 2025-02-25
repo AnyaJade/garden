@@ -19,23 +19,22 @@ renumber_month <- function(original_month, start_month) {
 
 data <- data.frame(month = month.name, 
            tasks = "placeholder") |>
+  rbind(data.frame("month" = "February", "tasks" = "extra")) |>
   dplyr::rowwise() |>
   dplyr::mutate(original_month_number = match(month, month.name),
                 order = renumber_month(original_month_number, current_month)) |>
   dplyr::ungroup() |>
-  dplyr::arrange(order) |>
-  dplyr::select(month, tasks)
-
-format_table <- function(data) {
-  
-  table <- data |>
-    kableExtra::kable() |>
-    kableExtra::kable_styling()
-  
-  return(table)
-}
-
-data |>
-  format_table()
+  dplyr::arrange(order)
 ```
 
+```{r}
+#| output: asis
+1:12 |>
+  purrr::walk(\(m)
+             {
+               knitr::knit_child(input = "child-dir/_child-monthly-tasks.qmd",
+                                 envir = environment(),
+                                 quiet = TRUE) |>
+                 cat(sep = '\n')
+  })
+```
