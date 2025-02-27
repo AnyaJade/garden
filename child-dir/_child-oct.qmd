@@ -1,0 +1,17 @@
+## October
+
+### Tasks
+
+:::panel-tabset
+
+#### Prune
+
+- @sec-buddleja
+
+#### Lift
+
+- @sec-dahlia
+
+:::
+
+### Events

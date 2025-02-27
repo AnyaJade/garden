@@ -1,0 +1,25 @@
+## February
+
+### Tasks
+
+:::panel-tabset
+
+#### Deadhead 
+
+- @sec-orpine
+
+#### Sow
+
+- @sec-sweetpea
+- @sec-lobelia
+- @sec-pepper
+- @sec-tomato
+- @sec-thyme
+
+:::
+
+### Events
+  
+- @sec-bluebell start to appear
+- @sec-snowdrop are flowering
+- @sec-hellebore are flowering

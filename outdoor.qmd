@@ -1,92 +1,97 @@
 # Outdoor plants
 
-## Acorus gramineus 'Variegatus' variegated dwarf rush
+## Acorus gramineus 'Variegatus' variegated dwarf rush {#sec-acorus}
 
-## Ajuga
+## Ajuga {#sec-ajuga}
 
-## Bluebells
+## Bluebells {#sec-bluebell}
 
 - Start to sprout in Feb, but flowers not until much later
 
-## Broad-leafed Dock
+## Broad-leafed Dock {#sec-dock}
 
-## Buddleja
+## Buddleja {#sec-buddleja}
 
 - Should cut back in autumn
 
-## Campion
+## Campion {#sec-campion}
 
-## Clematis
+## Clematis {#sec-clematis}
 
-## Cowslip
+## Cowslip {#sec-cowslip}
 
-## Crocosmia
+## Crocosmia {#sec-crocosmia}
 
-## Dahlia
+## Dahlia {#sec-dahlia}
 
 - Lift once leaves start to blacken and before frosts
 - Clean and leave in dry, cool/warm place - storage cupboard is ideal
 
-## Dianthus plumaris
+## Dianthus plumaris {#sec-dianthus}
 
-## Forget-me-nots
+## Forget-me-nots {#sec-forget}
 
-## Foxglove
+## Foxglove {#sec-foxglove}
 
-## Geranium maculatum
+## Geranium maculatum {#sec-geranium_m}
 
-## Geranium Cranesbill
+## Geranium Cranesbill {#sec-geranium_c}
 
-## Ground Elder
+## Ground Elder {#sec-elder}
 
-## Honeysuckle
+## Hellebore {#sec-hellebore}
 
-## Hops
+## Honeysuckle {#sec-honeysuckle}
 
-## Japenese quince
+## Hops {#sec-hops}
 
-## Lobelia
+## Japenese quince {#sec-quince}
+
+## Lobelia {#sec-lobelia}
 
 (RHS)[https://www.rhs.org.uk/plants/142728/lobelia-erinus/details]
 
 - Sow seeds in late winter at 13-18 degrees
 - Grow in deep, fertile, reliably moist soil in full sun or partial shade. 
 - Apply a balanced fertilizer every two weeks during spring and early summer and a nitrogen-free fertilizer every two weeks from mid-summer onwards
-- No pruning require
+- No pruning required
 
-## Orpine or stonecrop
+## Orpine {#sec-orpine}
 
-## Peonies
+- Stonecrop
 
-## Red-flowering currant
+## Peonies {#sec-peony}
 
-## Red valerian - herb?
+## Red-flowering currant {#sec-currant}
 
-## Roses
+## Red valerian - herb? {#sec-valerian}
 
-## Rudbeckia
+## Roses {#sec-rose}
 
-## Snapdragon
+## Rudbeckia {#sec-rudbeckia}
 
-## Snowdrops
+## Snapdragon {#sec-snapdragon}
+
+## Snowdrops {#sec-snowdrop}
 
 - Come up in Jan
 - Can lift and divide bulbs after flowering
 
-## Stevia - herb?
+## Stevia - herb? {#sec-stevia}
 
-## Summer snowflake, Gratiola officinalis 
+## Summer snowflake, Gratiola officinalis {#sec-snowflake} 
 
-## Sunflower
+## Sunflower {#sec-sunflower}
 
-## Sweet pea Lathyrus Odaratus
+## Lathyrus Odaratus {#sec-sweetpea}
 
+- Sweet pea 
 - Collect seeds once pods have gone papery brown
 - Dry pods out until splits, then dry seeds out and pack away
 - Soak 24 hours in warm water before sowing in Feb
 
-## Tutsan
+## Tutsan {#sec-tutsan}
 
-## Water starwort
+## Water starwort {#sec-starwort}
 
 
