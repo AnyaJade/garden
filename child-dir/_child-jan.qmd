@@ -1,1 +1,16 @@
 ## January
+
+### Tasks
+
+:::panel-tabset
+
+### Prune
+
+- @sec-raspberry
+
+:::
+
+### Events
+
+- @sec-hellebore start to appear
+- @sec-snowdrop start to appear

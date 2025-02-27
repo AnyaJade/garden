@@ -39,6 +39,8 @@
 
 ## Ground Elder {#sec-elder}
 
+## Hellebore {#sec-hellebore}
+
 ## Honeysuckle {#sec-honeysuckle}
 
 ## Hops {#sec-hops}
@@ -52,9 +54,11 @@
 - Sow seeds in late winter at 13-18 degrees
 - Grow in deep, fertile, reliably moist soil in full sun or partial shade. 
 - Apply a balanced fertilizer every two weeks during spring and early summer and a nitrogen-free fertilizer every two weeks from mid-summer onwards
-- No pruning require
+- No pruning required
 
-## Orpine or stonecrop {#sec-orpine}
+## Orpine {#sec-orpine}
+
+- Stonecrop
 
 ## Peonies {#sec-peony}
 
@@ -79,8 +83,9 @@
 
 ## Sunflower {#sec-sunflower}
 
-## Sweet pea Lathyrus Odaratus {#sec-sweetpea}
+## Lathyrus Odaratus {#sec-sweetpea}
 
+- Sweet pea 
 - Collect seeds once pods have gone papery brown
 - Dry pods out until splits, then dry seeds out and pack away
 - Soak 24 hours in warm water before sowing in Feb

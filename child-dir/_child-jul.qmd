@@ -1,1 +1,15 @@
 ## July
+
+### Tasks
+
+:::panel-tabset
+
+### Sow
+
+- @sec-carrot
+- @sec-lettuce
+- @sec-rocket
+
+:::
+
+### Events
