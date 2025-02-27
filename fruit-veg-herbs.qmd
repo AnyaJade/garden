@@ -1,43 +1,43 @@
 # Fruits, vegetables and herbs
 
-## Apples
+## Apples {#sec-apple}
 
 - Tree in garden
 - Got 3 or 4 apples in 2024
 - Left alone
 
-## Blackcurrant sage
+## Blackcurrant sage {#sec-blackcurrant}
 
 - Given cutting Dec 2024
 - Seems to be growing indoors ok
 
-## Bay
+## Bay {#sec-bay}
 
 - Got really big tree in garden and left alone in 2024
 - See how to get a successful cutting
 
-## Carrots
+## Carrots {#sec-carrots}
 
 - Sow March to July
 - 20cm apart
 - In 2023 and 2024, ended up with very small and few carrots
 
-## Chillies
+## Chillies {#sec-chilli}
 
 - Planted in 2024 and still have 3 plants, seem to be doing ok
 
-## Chives
+## Chives {#sec-chives}
 
 - Sow March - May
 - Previous attempts failed, have one bought one and kept over winter - aim is to move outside
 
-## Coriander
+## Coriander {#sec-coriander}
 
 - Sow indoors anytime
 - When large enough to handle, thin to 20cm apart
 - To harvest, take a few leaves from each plant
 
-## Courgette
+## Courgette {#sec-courgette}
 
 (RHS)[https://www.rhs.org.uk/vegetables/courgettes/grow-your-ow]n
 
@@ -50,7 +50,7 @@
 - Thirsty plants
 - Feed every 10-14 days with high potash liquid fertiliser once first fruits start to swell
 
-## Cucumber
+## Cucumber {#sec-cucumber}
 
 - Given a plant and grew indoors in 2024
 - Biggish pot
@@ -58,71 +58,71 @@
 - Grew tall
 - Pinched out to encourage bushier
 
-## Dill
+## Dill {#sec-dill}
 
 - Sow March - May
 - Do not grow near fennel
 
-## Garlic
+## Garlic {#sec-garlic}
 
 - Have in past planted a clove or two and used the sprouts like chives
 
-## Grapes
+## Grapes {#sec-grapes}
 
 - Vine in garden
 - Got lots of bunches in 2024, but small and sour
 - Left mostly alone, a little pruning / cutting back because grew a lot and everywhere
 - Next time - thin grapes, so can grow bigger and hopefully sweeter?
 
-## Green beans
+## Green beans {#sec-beans}
 
 - Sow in mid-April
 - Planted 6 in raised bed in 2024
 - Got lots of beans, grew very tall
 - Next time - Fewer plants and bigger sticks
 
-## Jaman
+## Jaman {#sec-jaman}
 
 - Gran gave a pot in autumn 2024
 - Grows well in kitchen
 - Makes tasty pakora
 - Seems quite hardy
 
-## Lavendar
+## Lavendar {#sec-lavendar}
 
 - Got three plants in 2024
 - The two by the door seem to be doing well, but the one in the pot needs more watering
 
-## Lemon Mint
+## Lemon Mint {#sec-lemon-mint}
 
 - Found in garden in 2024
 - Moved to a pot and seems to be doing fine
 
-## Lettuce
+## Lettuce {#sec-lettuce}
 
 - Sow March to July
 - 20cm apart
 - Most seeds germinate
 
-## Mint
+## Mint {#sec-mint}
 
 - Sow Feb - May
 
-## Oregano
+## Oregano {#sec-oregano}
 
 - Bush in garden 2024
 - Mostly left alone and seems fine
 
-## Parsley
+## Parsley {#sec-parsley}
 
 - Put one in a pot outside in 2024, seems fine
 
-## Pear
+## Pear {#sec-pear}
 
 - Tree in garden
 - Left alone in 2024 and got 2 pears
 
-## Peppers
+## Peppers {#sec-pepper}
 
 (RHS)[https://www.rhs.org.uk/vegetables/peppers/grow-your-own]
 
@@ -136,51 +136,51 @@
 - When reach about 30cm tall, pinch main stem(s)
 - Harvest mid-summer into autumn
 
-## Plums
+## Plums {#sec-plum}
 
 - Tree in garden
 - Got none in 2024
 - Left alone
 
-## Potatoes
+## Potatoes {#sec-potato}
 
 - Threw a sprouting potato in a black bag in summer 2024 and worked well
 - Emptied bag out once flowered / leaves started to turn and got lots of small ones
 
-## Raspberries
+## Raspberries {#sec-raspberry}
 
 - Loads canes came up in 2024
 - Left alone and got a few handfuls of raspberries
 - Cut some dead canes back in winter, see what happens in 2025
 
-## Rocket
+## Rocket {#sec-rocket}
 
 - Sow March to July
 - 20cm apart
 
-## Rosemary
+## Rosemary {#sec-rosemary}
 
 - Big bush in garden 2024, left alone
 - Maybe prune back so others can grow?
 
-## Sage
+## Sage {#sec-sage}
 
 - Sow March-May
 - Kept some small plants over winter, but see how they do / plant more and move outside
 
-## Spinach
+## Spinach {#sec-spinach}
 
 - Sowed some in 2024, but did not use
 
-## Spring onions
+## Spring onions {#sec-spring-onion}
 
-## Strawberries
+## Strawberries {#sec-strawberry}
 
 - Got a black bag in 2023
 - Left alone in 2024 and got a few strawberries
 - See how can get more and how to propogate
 
-## Tomatoes
+## Tomatoes {#sec-tomato}
 
 - Sow Feb - Apr, 15-20 degrees
 - Transplant when large enough to handle
@@ -188,7 +188,7 @@
 - Feed once flowers form
 - Had three plants and got less than 20 tomatoes in 2024, but didn't feed them and maybe didn't water them enough?
 
-## Thyme
+## Thyme {#sec-thyme}
 
 - Sow indoors Feb - May
 - When large enough to handle move into individual pots

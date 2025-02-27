@@ -16,25 +16,27 @@ renumber_month <- function(original_month, start_month) {
   
   return(renumbered_month)
 }
-
-data <- data.frame(month = month.name, 
-           tasks = "placeholder") |>
-  rbind(data.frame("month" = "February", "tasks" = "extra")) |>
-  dplyr::rowwise() |>
-  dplyr::mutate(original_month_number = match(month, month.name),
-                order = renumber_month(original_month_number, current_month)) |>
-  dplyr::ungroup() |>
-  dplyr::arrange(order)
 ```
 
 ```{r}
 #| output: asis
-1:12 |>
+ordered_months <- data.frame("number" = 1:12) |>
+  dplyr::mutate(name = lubridate::month(number, label = TRUE, abbr = TRUE) |>
+                  stringr::str_to_lower())|>
+  dplyr::rowwise() |>
+  dplyr::mutate(order = renumber_month(number, current_month)) |>
+  dplyr::ungroup() |>
+  dplyr::arrange(order) |>
+  dplyr::pull(name)
+
+ordered_months |>
   purrr::walk(\(m)
              {
-               knitr::knit_child(input = "child-dir/_child-monthly-tasks.qmd",
+               knitr::knit_child(input = stringr::str_replace("child-dir/_child-M.qmd",
+"M", m),
                                  envir = environment(),
                                  quiet = TRUE) |>
                  cat(sep = '\n')
   })
 ```
+

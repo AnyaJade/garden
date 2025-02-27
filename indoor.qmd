@@ -1,94 +1,94 @@
 # Indoor plants
 
-## Aloe
+## Aloe {#sec-aloe}
 
 - Doesn't like lots of light
 - Had lots of pups and started to tip over, so replanted and split up early 2025
 
-## Anthurium Andraeanum 
+## Anthurium Andraeanum {#sec-anthurium}
 
 - Doesn't like lots of light, but also doesn't like too little
 - Keep an eye on water and light levels in summer
 - Not many flowers in 2024 - maybe due to light and water? Or needs feeding?
 
-## Araceae, Dieffenbachia
+## Araceae, Dieffenbachia {#sec-araceae}
 
 - Likes the light in the bathroom
 
-## Asparagus Fern, Asparagu Densiflorus
+## Asparagus Fern, Asparagu Densiflorus {#sec-asparagus-fern}
 
 - Likes the light in the ensuite
 - Has grown quite tall
 
-## Aspidistra
+## Aspidistra {#sec-aspidistra}
 
 - Not sure if happy, has lost two out of 6 leaves, but seems ok now
 - Keep an eye on it, maybe needs more or less light
 
-## Cacti
+## Cacti {#sec-cacti}
 
 - Seem fine, don't like lots of light though
 
-## Christmas cactus
+## Christmas cactus {#sec-christmas}
 
 - Given in 2024 as two tiny stumps, hoping to revive in 2025
 
-## Cyclamen
+## Cyclamen {#sec-cyclamen}
 
 - Died in 2024
 
-## Dypsis Lutescens
+## Dypsis Lutescens {#sec-dypsis}
 
 - Seems to be happy where it is - not a lot of light, but some and often
 
-## Ficus Benjamina
+## Ficus Benjamina {#sec-benjamina}
 
 - Very happy
 
-## Ficus Elastica Robusta
+## Ficus Elastica Robusta {#sec-elastica}
 
 - Very happy
 
-## Geranium
+## Geranium {#sec-geranium}
 
 - Very happy
 - Given in 2024, has grown really big and strong
 
-## Kalanchoe Blossfedliana
+## Kalanchoe Blossfedliana {#sec-kalanchoe}
 
 - Was unhappy and bugged in 2024, so quarantined and then split into three smaller plants
 
-## Lily
+## Lily {#sec-lily}
 
 - Don't overwater because soil goes mouldy
 
-## Maidenhair fern
+## Maidenhair fern {#sec-maidenhair}
 
 - Given in 2024 as almost dead, hoping to revive
 - Likes humid conditions so is in ensuite
 
-## Moth Orchid
+## Moth Orchid {#sec-orchid}
 
 - In ensuite for humidity
 - Leaves seem happy, hoping to flower again
 
-## Peace lily
+## Peace lily {#sec-peace}
 
 - Likes the indirect light
 - Likes lots of water
 
-## Spider plant
+## Spider plant {#sec-spider}
 
 - Seems to be ok
 - Needs repotting every couple years, to refresh
 
-## Tradescantia Spathacea 'Sitara'
+## Tradescantia Spathacea 'Sitara' {#sec-sitara}
 
 - Cannot kill this one
 - Just grows and grows
 - Needs light to get purple, but not too much because then browns
 
-## Tradescantia Zebrina
+## Tradescantia Zebrina {#sec-zebrina}
 
 - Needs light to get purple, but not too much because then browns
 - Find the strong but filtered bathroom light is enough
