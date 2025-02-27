@@ -32,8 +32,9 @@ ordered_months <- data.frame("number" = 1:12) |>
 ordered_months |>
   purrr::walk(\(m)
              {
-               knitr::knit_child(input = stringr::str_replace("child-dir/_child-M.qmd",
-"M", m),
+               knitr::knit_child(input = glue::glue("child-dir/_child-",
+                                                    m, 
+                                                    ".qmd"),
                                  envir = environment(),
                                  quiet = TRUE) |>
                  cat(sep = '\n')
