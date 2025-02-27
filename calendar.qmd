@@ -1,16 +1,12 @@
 # Calendar
 
-```{r}
-current_month <- Sys.Date() |>
-  lubridate::floor_date("month") |>
-  lubridate::month()
-
+```{r setup}
 renumber_month <- function(original_month, start_month) {
   modifier <- 12 - start_month + 1
   
   renumbered_month <- original_month + modifier
   
-  if(renumbered_month > 12) {
+  if (renumbered_month > 12) {
     renumbered_month <- renumbered_month - 12
   }
   
@@ -18,25 +14,32 @@ renumber_month <- function(original_month, start_month) {
 }
 ```
 
-```{r}
-#| output: asis
+```{r order-months}
+current_month <- Sys.Date() |>
+  lubridate::floor_date("month") |>
+  lubridate::month()
+
 ordered_months <- data.frame("number" = 1:12) |>
   dplyr::mutate(name = lubridate::month(number, label = TRUE, abbr = TRUE) |>
-                  stringr::str_to_lower())|>
+                  stringr::str_to_lower()) |>
   dplyr::rowwise() |>
   dplyr::mutate(order = renumber_month(number, current_month)) |>
   dplyr::ungroup() |>
   dplyr::arrange(order) |>
   dplyr::pull(name)
+```
 
+```{r knit-children}
+#| output: asis
 ordered_months |>
   purrr::walk(\(m)
-             {
-               knitr::knit_child(input = stringr::str_replace("child-dir/_child-M.qmd",
-"M", m),
-                                 envir = environment(),
-                                 quiet = TRUE) |>
-                 cat(sep = '\n')
+              {
+                knitr::knit_child(
+                  input = glue::glue("child-dir/_child-", m, ".qmd"),
+                  envir = environment(),
+                  quiet = TRUE
+                ) |>
+                  cat(sep = '\n')
   })
 ```
 
