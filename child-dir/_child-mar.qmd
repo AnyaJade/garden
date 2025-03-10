@@ -25,3 +25,5 @@
 :::
 
 ### Events
+
+- @sec-daffodil ae flowering
