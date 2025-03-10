@@ -8,6 +8,10 @@
 
 - @sec-snowdrop
 
+### Other
+
+- Clean and refill water butts
+
 ### Sow
 
 - @sec-carrot
@@ -26,4 +30,4 @@
 
 ### Events
 
-- @sec-daffodil ae flowering
+- @sec-daffodil are flowering
