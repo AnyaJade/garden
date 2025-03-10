@@ -14,17 +14,7 @@
     "href": "calendar.html",
     "title": "Calendar",
     "section": "",
-    "text": "February",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
-    ]
-  },
-  {
-    "objectID": "calendar.html#february",
-    "href": "calendar.html#february",
-    "title": "Calendar",
-    "section": "",
-    "text": "Tasks\n\nDeadheadSow\n\n\n\nOrpine\n\n\n\n\nLathyrus Odaratus\nLobelia\nPeppers\nTomatoes\nThyme\n\n\n\n\n\n\nEvents\n\nBluebells start to appear\nSnowdrops are flowering\nHellebore are flowering",
+    "text": "March",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
     ]
@@ -33,8 +23,8 @@
     "objectID": "calendar.html#march",
     "href": "calendar.html#march",
     "title": "Calendar",
-    "section": "March",
-    "text": "March\n\nTasks\n\nLiftSow\n\n\n\nSnowdrops\n\n\n\n\nCarrots\nChives\nCourgette\nDill\nLettuce\nMint\nPeppers\nRocket\nSage\nTomatoes\nThyme\n\n\n\n\n\n\nEvents",
+    "section": "",
+    "text": "Tasks\n\nLiftSow\n\n\n\nSnowdrops\n\n\n\n\nCarrots\nChives\nCourgette\nDill\nLettuce\nMint\nPeppers\nRocket\nSage\nTomatoes\nThyme\n\n\n\n\n\n\nEvents\n\nDaffodils ae flowering",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
     ]
@@ -135,6 +125,16 @@
     "title": "Calendar",
     "section": "January",
     "text": "January\n\nTasks\n\nPrune\n\n\n\nRaspberries\n\n\n\n\n\n\nEvents\n\nHellebore start to appear\nSnowdrops start to appear",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
+    ]
+  },
+  {
+    "objectID": "calendar.html#february",
+    "href": "calendar.html#february",
+    "title": "Calendar",
+    "section": "February",
+    "text": "February\n\nTasks\n\nDeadheadSow\n\n\n\nOrpine\n\n\n\n\nLathyrus Odaratus\nLobelia\nPeppers\nTomatoes\nThyme\n\n\n\n\n\n\nEvents\n\nBluebells start to appear\nSnowdrops are flowering\nHellebore are flowering\nDaffodils start to appear",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
     ]
@@ -775,6 +775,16 @@
     "title": "Outdoor plants",
     "section": "Crocosmia",
     "text": "Crocosmia",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
+    ]
+  },
+  {
+    "objectID": "outdoor.html#sec-daffodil",
+    "href": "outdoor.html#sec-daffodil",
+    "title": "Outdoor plants",
+    "section": "Daffodils",
+    "text": "Daffodils\n\nLift in autumn",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
