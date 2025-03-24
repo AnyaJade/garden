@@ -4,13 +4,14 @@
 
 :::panel-tabset
 
-### Lift
-
-- @sec-snowdrop
-
 ### Other
 
 - Clean and refill water butts
+- From late March can start feeding most houseplants
+
+### Propagate
+
+- @sec-snowdrop
 
 ### Sow
 

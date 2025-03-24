@@ -4,13 +4,13 @@
 
 :::panel-tabset
 
+#### Propagate
+
+- @sec-dahlia
+
 #### Prune
 
 - @sec-buddleja
-
-#### Lift
-
-- @sec-dahlia
 
 :::
 
