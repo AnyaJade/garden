@@ -14,27 +14,7 @@
     "href": "calendar.html",
     "title": "Calendar",
     "section": "",
-    "text": "March",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
-    ]
-  },
-  {
-    "objectID": "calendar.html#march",
-    "href": "calendar.html#march",
-    "title": "Calendar",
-    "section": "",
-    "text": "Tasks\n\nOtherPropagateSow\n\n\n\nClean and refill water butts\nFrom late March can start feeding most houseplants\nPlant Dahlia\n\n\n\n\nSnowdrops\n\n\n\n\nCarrots\nChives\nCourgette\nDill\nLettuce\nMint\nPeppers\nRocket\nSage\nTomatoes\nThyme\n\n\n\n\n\n\nEvents\n\nDaffodils are flowering\nRed-flowering currant starts to flower",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
-    ]
-  },
-  {
-    "objectID": "calendar.html#april",
-    "href": "calendar.html#april",
-    "title": "Calendar",
-    "section": "April",
-    "text": "April\n\nTasks\n\nSow\n\n\n\nCarrots\nChives\nCourgette\nDill\nGreen beans\nLettuce\nMint\nRocket\nSage\nTomatoes\nThyme\n\n\n\n\n\n\nEvents",
+    "text": "May",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
     ]
@@ -43,8 +23,8 @@
     "objectID": "calendar.html#may",
     "href": "calendar.html#may",
     "title": "Calendar",
-    "section": "May",
-    "text": "May\n\nTasks\n\nSow\n\n\n\nCarrots\nChives\nDill\nLettuce\nMint\nRocket\nSage\nThyme\n\n\n\n\n\n\nEvents",
+    "section": "",
+    "text": "Tasks\n\nSow\n\n\n\nCarrots\nChives\nDill\nLettuce\nMint\nRocket\nSage\nThyme\n\n\n\n\n\n\nEvents\n\nPeonies in full bloom\nRoses starts to bud\nClematis flowers\nCowslip flowers\nGeranium Cranesbill flowers\nRed valerian flowers\nSnapdragon flowers\nGrapes fruits start to appear",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
     ]
@@ -84,7 +64,7 @@
     "href": "calendar.html#september",
     "title": "Calendar",
     "section": "September",
-    "text": "September\n\nTasks\n\nHarvest\n\n\n\nLathyrus Odaratus\n\n\n\n\n\n\nEvents",
+    "text": "September\n\nTasks\n\nHarvestPropogate\n\n\n\nLathyrus Odaratus\n\n\n\n\nPeonies\n\n\n\n\n\n\nEvents",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
     ]
@@ -135,6 +115,26 @@
     "title": "Calendar",
     "section": "February",
     "text": "February\n\nTasks\n\nDeadheadSow\n\n\n\nOrpine\n\n\n\n\nLathyrus Odaratus\nLobelia\nPeppers\nTomatoes\nThyme\n\n\n\n\n\n\nEvents\n\nBluebells start to appear\nSnowdrops are flowering\nHellebore are flowering\nDaffodils start to appear",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
+    ]
+  },
+  {
+    "objectID": "calendar.html#march",
+    "href": "calendar.html#march",
+    "title": "Calendar",
+    "section": "March",
+    "text": "March\n\nTasks\n\nOtherPropagateSow\n\n\n\nClean and refill water butts\nFrom late March can start feeding most houseplants\nPlant Dahlia\n\n\n\n\nSnowdrops\n\n\n\n\nCarrots\nChives\nCourgette\nDill\nLettuce\nMint\nPeppers\nRocket\nSage\nTomatoes\nThyme\n\n\n\n\n\n\nEvents\n\nDaffodils are flowering\nRed-flowering currant starts to flower",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
+    ]
+  },
+  {
+    "objectID": "calendar.html#april",
+    "href": "calendar.html#april",
+    "title": "Calendar",
+    "section": "April",
+    "text": "April\n\nTasks\n\nSow\n\n\n\nCarrots\nChives\nCourgette\nDill\nGreen beans\nLettuce\nMint\nRocket\nSage\nTomatoes\nThyme\n\n\n\n\n\n\nEvents\n\nClematis flowers\nCowslip flowers\nForget-me-nots flowers\nGeranium Cranesbill flowers\nJapenese quince flowers\nSummer snowflake, Gratiola officinalis flowers\nHops appears\nGrapes leaves start to appear",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
     ]
@@ -264,7 +264,7 @@
     "href": "fruit-veg-herbs.html#sec-grapes",
     "title": "Fruits, vegetables and herbs",
     "section": "Grapes",
-    "text": "Grapes\n\nVine in garden\nGot lots of bunches in 2024, but small and sour\nLeft mostly alone, a little pruning / cutting back because grew a lot and everywhere\nNext time - thin grapes, so can grow bigger and hopefully sweeter?",
+    "text": "Grapes\n\nVine in garden\nGot lots of bunches in 2024, but small and sour\nLeft mostly alone, a little pruning / cutting back because grew a lot and everywhere\nNext time - thin grapes, so can grow bigger and hopefully sweeter?\nLeaves start to appear late April\nBeginnings of grapes appear May",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fruits, vegetables and herbs</span>"
     ]
@@ -714,7 +714,7 @@
     "href": "outdoor.html#sec-bluebell",
     "title": "Outdoor plants",
     "section": "Bluebells",
-    "text": "Bluebells\n\nStart to sprout in Feb, but flowers not until much later",
+    "text": "Bluebells\n\nStart to sprout in Feb\nFlowers March-April",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -754,7 +754,7 @@
     "href": "outdoor.html#sec-clematis",
     "title": "Outdoor plants",
     "section": "Clematis",
-    "text": "Clematis",
+    "text": "Clematis\n\nFlowers late April to May",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -764,7 +764,7 @@
     "href": "outdoor.html#sec-cowslip",
     "title": "Outdoor plants",
     "section": "Cowslip",
-    "text": "Cowslip",
+    "text": "Cowslip\n\nFlowers late April to early May",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -814,7 +814,7 @@
     "href": "outdoor.html#sec-forget",
     "title": "Outdoor plants",
     "section": "Forget-me-nots",
-    "text": "Forget-me-nots",
+    "text": "Forget-me-nots\n\nFlowers in April",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -833,8 +833,8 @@
     "objectID": "outdoor.html#sec-geranium_m",
     "href": "outdoor.html#sec-geranium_m",
     "title": "Outdoor plants",
-    "section": "Geranium maculatum",
-    "text": "Geranium maculatum",
+    "section": "Geranium Maculatum",
+    "text": "Geranium Maculatum",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -844,7 +844,7 @@
     "href": "outdoor.html#sec-geranium_c",
     "title": "Outdoor plants",
     "section": "Geranium Cranesbill",
-    "text": "Geranium Cranesbill",
+    "text": "Geranium Cranesbill\n\nFlowers late April to early May",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -884,7 +884,7 @@
     "href": "outdoor.html#sec-hops",
     "title": "Outdoor plants",
     "section": "Hops",
-    "text": "Hops",
+    "text": "Hops\n\nAppears late April",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -894,7 +894,7 @@
     "href": "outdoor.html#sec-quince",
     "title": "Outdoor plants",
     "section": "Japenese quince",
-    "text": "Japenese quince",
+    "text": "Japenese quince\n\nFlowers in April",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -924,7 +924,7 @@
     "href": "outdoor.html#sec-peony",
     "title": "Outdoor plants",
     "section": "Peonies",
-    "text": "Peonies\n\nStart to grow again early March",
+    "text": "Peonies\n\nStart to grow again early March\nFlowers in May\nPropagate late summer",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -934,7 +934,7 @@
     "href": "outdoor.html#sec-currant",
     "title": "Outdoor plants",
     "section": "Red-flowering currant",
-    "text": "Red-flowering currant\n\nStart to grow again early March",
+    "text": "Red-flowering currant\n\nStart to grow again early March\nFlowers March - April",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -943,8 +943,8 @@
     "objectID": "outdoor.html#sec-valerian",
     "href": "outdoor.html#sec-valerian",
     "title": "Outdoor plants",
-    "section": "Red valerian - herb?",
-    "text": "Red valerian - herb?",
+    "section": "Red valerian",
+    "text": "Red valerian\n\nFlowers May",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -954,7 +954,7 @@
     "href": "outdoor.html#sec-rose",
     "title": "Outdoor plants",
     "section": "Roses",
-    "text": "Roses",
+    "text": "Roses\n\nStarts to bud in May",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -974,7 +974,7 @@
     "href": "outdoor.html#sec-snapdragon",
     "title": "Outdoor plants",
     "section": "Snapdragon",
-    "text": "Snapdragon",
+    "text": "Snapdragon\n\nFlowers in May",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -993,8 +993,8 @@
     "objectID": "outdoor.html#sec-stevia",
     "href": "outdoor.html#sec-stevia",
     "title": "Outdoor plants",
-    "section": "Stevia - herb?",
-    "text": "Stevia - herb?",
+    "section": "Stevia",
+    "text": "Stevia",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -1004,7 +1004,7 @@
     "href": "outdoor.html#sec-snowflake",
     "title": "Outdoor plants",
     "section": "Summer snowflake, Gratiola officinalis",
-    "text": "Summer snowflake, Gratiola officinalis",
+    "text": "Summer snowflake, Gratiola officinalis\n\nFlowers in April",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
@@ -1024,7 +1024,7 @@
     "href": "outdoor.html#sec-sweetpea",
     "title": "Outdoor plants",
     "section": "Lathyrus Odaratus",
-    "text": "Lathyrus Odaratus\n\nSweet pea\nCollect seeds once pods have gone papery brown\nDry pods out until splits, then dry seeds out and pack away\nSoak 24 hours in warm water before sowing in Feb",
+    "text": "Lathyrus Odaratus\n\nSweet pea\nCollect seeds once pods have gone papery brown\nDry pods out until splits, then dry seeds out and pack away\nSoak 24 hours in warm water before sowing in Feb\nPlant out late April",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outdoor plants</span>"
     ]
