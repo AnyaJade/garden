@@ -21,3 +21,12 @@
 :::
 
 ### Events
+
+- @sec-clematis flowers
+- @sec-cowslip flowers
+- @sec-forget flowers
+- @sec-geranium_c flowers
+- @sec-quince flowers
+- @sec-snowflake flowers
+- @sec-hops appears
+- @sec-grapes leaves start to appear

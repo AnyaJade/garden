@@ -18,3 +18,12 @@
 :::
 
 ### Events
+
+- @sec-peony in full bloom
+- @sec-rose starts to bud
+- @sec-clematis flowers
+- @sec-cowslip flowers
+- @sec-geranium_c flowers
+- @sec-valerian flowers
+- @sec-snapdragon flowers
+- @sec-grapes fruits start to appear
