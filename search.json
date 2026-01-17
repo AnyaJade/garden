@@ -14,87 +14,7 @@
     "href": "calendar.html",
     "title": "Calendar",
     "section": "",
-    "text": "May",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
-    ]
-  },
-  {
-    "objectID": "calendar.html#may",
-    "href": "calendar.html#may",
-    "title": "Calendar",
-    "section": "",
-    "text": "Tasks\n\nSow\n\n\n\nCarrots\nChives\nDill\nLettuce\nMint\nRocket\nSage\nThyme\n\n\n\n\n\n\nEvents\n\nPeonies in full bloom\nRoses starts to bud\nClematis flowers\nCowslip flowers\nGeranium Cranesbill flowers\nRed valerian flowers\nSnapdragon flowers\nGrapes fruits start to appear",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
-    ]
-  },
-  {
-    "objectID": "calendar.html#june",
-    "href": "calendar.html#june",
-    "title": "Calendar",
-    "section": "June",
-    "text": "June\n\nTasks\n\nSow\n\n\n\nCarrots\nLettuce\nRocket\n\n\n\n\n\n\nEvents",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
-    ]
-  },
-  {
-    "objectID": "calendar.html#july",
-    "href": "calendar.html#july",
-    "title": "Calendar",
-    "section": "July",
-    "text": "July\n\nTasks\n\nSow\n\n\n\nCarrots\nLettuce\nRocket\n\n\n\n\n\n\nEvents",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
-    ]
-  },
-  {
-    "objectID": "calendar.html#august",
-    "href": "calendar.html#august",
-    "title": "Calendar",
-    "section": "August",
-    "text": "August\n\nTasks\n\n\n\n\n\n\n\n\nEvents",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
-    ]
-  },
-  {
-    "objectID": "calendar.html#september",
-    "href": "calendar.html#september",
-    "title": "Calendar",
-    "section": "September",
-    "text": "September\n\nTasks\n\nHarvestPropogate\n\n\n\nLathyrus Odaratus\n\n\n\n\nPeonies\n\n\n\n\n\n\nEvents",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
-    ]
-  },
-  {
-    "objectID": "calendar.html#october",
-    "href": "calendar.html#october",
-    "title": "Calendar",
-    "section": "October",
-    "text": "October\n\nTasks\n\nPropagatePrune\n\n\n\nDahlia\n\n\n\n\nBuddleja\n\n\n\n\n\n\nEvents",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
-    ]
-  },
-  {
-    "objectID": "calendar.html#november",
-    "href": "calendar.html#november",
-    "title": "Calendar",
-    "section": "November",
-    "text": "November\n\nTasks\n\n\n\n\n\n\n\n\nEvents",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
-    ]
-  },
-  {
-    "objectID": "calendar.html#december",
-    "href": "calendar.html#december",
-    "title": "Calendar",
-    "section": "December",
-    "text": "December\n\nTasks\n\n\n\n\n\n\n\n\nEvents",
+    "text": "January",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
     ]
@@ -103,8 +23,8 @@
     "objectID": "calendar.html#january",
     "href": "calendar.html#january",
     "title": "Calendar",
-    "section": "January",
-    "text": "January\n\nTasks\n\nPrune\n\n\n\nRaspberries\n\n\n\n\n\n\nEvents\n\nHellebore start to appear\nSnowdrops start to appear",
+    "section": "",
+    "text": "Tasks\n\nPrune\n\n\n\nRaspberries\n\n\n\n\n\n\nEvents\n\nHellebore start to appear\nSnowdrops start to appear",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
     ]
@@ -134,7 +54,87 @@
     "href": "calendar.html#april",
     "title": "Calendar",
     "section": "April",
-    "text": "April\n\nTasks\n\nSow\n\n\n\nCarrots\nChives\nCourgette\nDill\nGreen beans\nLettuce\nMint\nRocket\nSage\nTomatoes\nThyme\n\n\n\n\n\n\nEvents\n\nClematis flowers\nCowslip flowers\nForget-me-nots flowers\nGeranium Cranesbill flowers\nJapenese quince flowers\nSummer snowflake, Gratiola officinalis flowers\nHops appears\nGrapes leaves start to appear",
+    "text": "April\n\nTasks\n\nSow\n\n\n\nCarrots\nChives\nCourgette\nDill\nGreen beans\nLettuce\nMint\nRocket\nSage\nSquash\nThyme\n\n\n\n\n\n\nEvents\n\nClematis flowers\nCowslip flowers\nForget-me-nots flowers\nGeranium Cranesbill flowers\nJapenese quince flowers\nSummer snowflake, Gratiola officinalis flowers\nHops appears\nGrapes leaves start to appear",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
+    ]
+  },
+  {
+    "objectID": "calendar.html#may",
+    "href": "calendar.html#may",
+    "title": "Calendar",
+    "section": "May",
+    "text": "May\n\nTasks\n\nSow\n\n\n\nCarrots\nChives\nDill\nLettuce\nMint\nMustard\nRocket\nRunner bean\nSage\nSquash\nThyme\n\n\n\n\n\n\nEvents\n\nPeonies in full bloom\nRoses starts to bud\nClematis flowers\nCowslip flowers\nGeranium Cranesbill flowers\nRed valerian flowers\nSnapdragon flowers\nGrapes fruits start to appear",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
+    ]
+  },
+  {
+    "objectID": "calendar.html#june",
+    "href": "calendar.html#june",
+    "title": "Calendar",
+    "section": "June",
+    "text": "June\n\nTasks\n\nSow\n\n\n\nCarrots\nLettuce\nMustard\nRocket\n\n\n\n\n\n\nEvents",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
+    ]
+  },
+  {
+    "objectID": "calendar.html#july",
+    "href": "calendar.html#july",
+    "title": "Calendar",
+    "section": "July",
+    "text": "July\n\nTasks\n\nSow\n\n\n\nCarrots\nLettuce\nMustard\nRocket\n\n\n\n\n\n\nEvents",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
+    ]
+  },
+  {
+    "objectID": "calendar.html#august",
+    "href": "calendar.html#august",
+    "title": "Calendar",
+    "section": "August",
+    "text": "August\n\nTasks\n\nSow\n\n\n\nMustard\n\n\n\n\n\n\nEvents",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
+    ]
+  },
+  {
+    "objectID": "calendar.html#september",
+    "href": "calendar.html#september",
+    "title": "Calendar",
+    "section": "September",
+    "text": "September\n\nTasks\n\nHarvestPropogate\n\n\n\nLathyrus Odaratus\n\n\n\n\nPeonies\n\n\n\n\n\n\nEvents",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
+    ]
+  },
+  {
+    "objectID": "calendar.html#october",
+    "href": "calendar.html#october",
+    "title": "Calendar",
+    "section": "October",
+    "text": "October\n\nTasks\n\nPropagatePrune\n\n\n\nDahlia\n\n\n\n\nBuddleja\n\n\n\n\n\n\nEvents",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
+    ]
+  },
+  {
+    "objectID": "calendar.html#november",
+    "href": "calendar.html#november",
+    "title": "Calendar",
+    "section": "November",
+    "text": "November\n\nTasks\n\n\nEvents",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
+    ]
+  },
+  {
+    "objectID": "calendar.html#december",
+    "href": "calendar.html#december",
+    "title": "Calendar",
+    "section": "December",
+    "text": "December\n\nTasks\n\n\nEvents",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Calendar</span>"
     ]
@@ -184,7 +184,7 @@
     "href": "fruit-veg-herbs.html#sec-carrot",
     "title": "Fruits, vegetables and herbs",
     "section": "Carrots",
-    "text": "Carrots\n\nSow March to July\n20cm apart\nIn 2023 and 2024, ended up with very small and few carrots",
+    "text": "Carrots\n\nSow March to July\n20cm apart\nIn 2023 and 2024, ended up with very small and few carrots\nTo save seed, make sure no other carrots within 500m. Crosses with carrots are easily identifiable as the thin, white root will be dominant.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fruits, vegetables and herbs</span>"
     ]
@@ -330,6 +330,16 @@
     ]
   },
   {
+    "objectID": "fruit-veg-herbs.html#sec-mustard",
+    "href": "fruit-veg-herbs.html#sec-mustard",
+    "title": "Fruits, vegetables and herbs",
+    "section": "Mustard",
+    "text": "Mustard\n\nCan be sown throughout the summer and into autumn for an early winter crop.\nIt will withstand some cold but will be killed off by a hard frost.\nSpacing of 50cm.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fruits, vegetables and herbs</span>"
+    ]
+  },
+  {
     "objectID": "fruit-veg-herbs.html#sec-oregano",
     "href": "fruit-veg-herbs.html#sec-oregano",
     "title": "Fruits, vegetables and herbs",
@@ -420,6 +430,16 @@
     ]
   },
   {
+    "objectID": "fruit-veg-herbs.html#sec-runner",
+    "href": "fruit-veg-herbs.html#sec-runner",
+    "title": "Fruits, vegetables and herbs",
+    "section": "Runner bean",
+    "text": "Runner bean\n\nIs perennial if the roots are lifted and stored like dahlias, but treated as an annual as the plants grow so quickly.\nSow seeds in mid-May and plant out hardened-off plants after the last frost.\nAllow at least 15cm between rows.\nHarvest pods before they are over-mature to avoid stringiness, and pick frequently to encourage more to form.\nLeave some on the plant to mature if you wish to save the seed.\nRunner beans readily cross-pollinate and need at least 1000m between varieties.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fruits, vegetables and herbs</span>"
+    ]
+  },
+  {
     "objectID": "fruit-veg-herbs.html#sec-sage",
     "href": "fruit-veg-herbs.html#sec-sage",
     "title": "Fruits, vegetables and herbs",
@@ -460,11 +480,21 @@
     ]
   },
   {
+    "objectID": "fruit-veg-herbs.html#sec-squash",
+    "href": "fruit-veg-herbs.html#sec-squash",
+    "title": "Fruits, vegetables and herbs",
+    "section": "Squash",
+    "text": "Squash\n\nSow Apr-May - warm and danger of frost has passed\nSow at least 3 seeds to ensure that if one plant is mainly producing male flowers, there is a higher probability that there will be a female flower on another for pollination.\nAllow lots of space (1-1.5m, more for trailing types).\nPollination is required for good fruit set, and can be done by hand if insects are scarce.\nFor winter squash, don’t allow too many fruits since need time/resources to develop.\nSummer squash can be allowed to produce lots of fruit and harvested when ready (it should still be possible to penetrate the skin with a thumbnail).\nHarvest winter squash when the vines have been cut down by frost. Allow the fruits to ripen further in the sun for several weeks after harvest for maximum storage time.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fruits, vegetables and herbs</span>"
+    ]
+  },
+  {
     "objectID": "fruit-veg-herbs.html#sec-tomato",
     "href": "fruit-veg-herbs.html#sec-tomato",
     "title": "Fruits, vegetables and herbs",
     "section": "Tomatoes",
-    "text": "Tomatoes\n\nSow Feb - Apr, 15-20 degrees\nTransplant when large enough to handle\nPlant out in 30cm pots\nFeed once flowers form\nHad three plants and got less than 20 tomatoes in 2024, but didn’t feed them and maybe didn’t water them enough?",
+    "text": "Tomatoes\n\nSow late Feb - Mar, 15-20 degrees\nTransplant when large enough to handle\nPlant out in 30cm pots\nFeed once flowers form\nHad three plants and got less than 20 tomatoes in 2024, but didn’t feed them and maybe didn’t water them enough?",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Fruits, vegetables and herbs</span>"
     ]

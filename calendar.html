@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,17 +32,18 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./fruit-veg-herbs.html" rel="next">
 <link href="./index.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8da5b4427184b79ecddefad3d342027e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-fdf964b8551a4c1da979a829183e41b0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-364982630eef5352dd1537128a8ed5cb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-b9e11ad5a37ead2aabff839d95ae3857.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -74,7 +75,167 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = true;
+    const darkModeDefault = authorPrefersDark;
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -148,62 +309,62 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#may" id="toc-may" class="nav-link active" data-scroll-target="#may">May</a>
+  <li><a href="#january" id="toc-january" class="nav-link active" data-scroll-target="#january">January</a>
   <ul class="collapse">
   <li><a href="#tasks" id="toc-tasks" class="nav-link" data-scroll-target="#tasks">Tasks</a></li>
   <li><a href="#events" id="toc-events" class="nav-link" data-scroll-target="#events">Events</a></li>
   </ul></li>
-  <li><a href="#june" id="toc-june" class="nav-link" data-scroll-target="#june">June</a>
+  <li><a href="#february" id="toc-february" class="nav-link" data-scroll-target="#february">February</a>
   <ul class="collapse">
   <li><a href="#tasks-1" id="toc-tasks-1" class="nav-link" data-scroll-target="#tasks-1">Tasks</a></li>
   <li><a href="#events-1" id="toc-events-1" class="nav-link" data-scroll-target="#events-1">Events</a></li>
   </ul></li>
-  <li><a href="#july" id="toc-july" class="nav-link" data-scroll-target="#july">July</a>
+  <li><a href="#march" id="toc-march" class="nav-link" data-scroll-target="#march">March</a>
   <ul class="collapse">
   <li><a href="#tasks-2" id="toc-tasks-2" class="nav-link" data-scroll-target="#tasks-2">Tasks</a></li>
   <li><a href="#events-2" id="toc-events-2" class="nav-link" data-scroll-target="#events-2">Events</a></li>
   </ul></li>
-  <li><a href="#august" id="toc-august" class="nav-link" data-scroll-target="#august">August</a>
+  <li><a href="#april" id="toc-april" class="nav-link" data-scroll-target="#april">April</a>
   <ul class="collapse">
   <li><a href="#tasks-3" id="toc-tasks-3" class="nav-link" data-scroll-target="#tasks-3">Tasks</a></li>
   <li><a href="#events-3" id="toc-events-3" class="nav-link" data-scroll-target="#events-3">Events</a></li>
   </ul></li>
-  <li><a href="#september" id="toc-september" class="nav-link" data-scroll-target="#september">September</a>
+  <li><a href="#may" id="toc-may" class="nav-link" data-scroll-target="#may">May</a>
   <ul class="collapse">
   <li><a href="#tasks-4" id="toc-tasks-4" class="nav-link" data-scroll-target="#tasks-4">Tasks</a></li>
   <li><a href="#events-4" id="toc-events-4" class="nav-link" data-scroll-target="#events-4">Events</a></li>
   </ul></li>
-  <li><a href="#october" id="toc-october" class="nav-link" data-scroll-target="#october">October</a>
+  <li><a href="#june" id="toc-june" class="nav-link" data-scroll-target="#june">June</a>
   <ul class="collapse">
   <li><a href="#tasks-5" id="toc-tasks-5" class="nav-link" data-scroll-target="#tasks-5">Tasks</a></li>
   <li><a href="#events-5" id="toc-events-5" class="nav-link" data-scroll-target="#events-5">Events</a></li>
   </ul></li>
-  <li><a href="#november" id="toc-november" class="nav-link" data-scroll-target="#november">November</a>
+  <li><a href="#july" id="toc-july" class="nav-link" data-scroll-target="#july">July</a>
   <ul class="collapse">
   <li><a href="#tasks-6" id="toc-tasks-6" class="nav-link" data-scroll-target="#tasks-6">Tasks</a></li>
   <li><a href="#events-6" id="toc-events-6" class="nav-link" data-scroll-target="#events-6">Events</a></li>
   </ul></li>
-  <li><a href="#december" id="toc-december" class="nav-link" data-scroll-target="#december">December</a>
+  <li><a href="#august" id="toc-august" class="nav-link" data-scroll-target="#august">August</a>
   <ul class="collapse">
   <li><a href="#tasks-7" id="toc-tasks-7" class="nav-link" data-scroll-target="#tasks-7">Tasks</a></li>
   <li><a href="#events-7" id="toc-events-7" class="nav-link" data-scroll-target="#events-7">Events</a></li>
   </ul></li>
-  <li><a href="#january" id="toc-january" class="nav-link" data-scroll-target="#january">January</a>
+  <li><a href="#september" id="toc-september" class="nav-link" data-scroll-target="#september">September</a>
   <ul class="collapse">
   <li><a href="#tasks-8" id="toc-tasks-8" class="nav-link" data-scroll-target="#tasks-8">Tasks</a></li>
   <li><a href="#events-8" id="toc-events-8" class="nav-link" data-scroll-target="#events-8">Events</a></li>
   </ul></li>
-  <li><a href="#february" id="toc-february" class="nav-link" data-scroll-target="#february">February</a>
+  <li><a href="#october" id="toc-october" class="nav-link" data-scroll-target="#october">October</a>
   <ul class="collapse">
   <li><a href="#tasks-9" id="toc-tasks-9" class="nav-link" data-scroll-target="#tasks-9">Tasks</a></li>
   <li><a href="#events-9" id="toc-events-9" class="nav-link" data-scroll-target="#events-9">Events</a></li>
   </ul></li>
-  <li><a href="#march" id="toc-march" class="nav-link" data-scroll-target="#march">March</a>
+  <li><a href="#november" id="toc-november" class="nav-link" data-scroll-target="#november">November</a>
   <ul class="collapse">
   <li><a href="#tasks-10" id="toc-tasks-10" class="nav-link" data-scroll-target="#tasks-10">Tasks</a></li>
   <li><a href="#events-10" id="toc-events-10" class="nav-link" data-scroll-target="#events-10">Events</a></li>
   </ul></li>
-  <li><a href="#april" id="toc-april" class="nav-link" data-scroll-target="#april">April</a>
+  <li><a href="#december" id="toc-december" class="nav-link" data-scroll-target="#december">December</a>
   <ul class="collapse">
   <li><a href="#tasks-11" id="toc-tasks-11" class="nav-link" data-scroll-target="#tasks-11">Tasks</a></li>
   <li><a href="#events-11" id="toc-events-11" class="nav-link" data-scroll-target="#events-11">Events</a></li>
@@ -213,6 +374,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -233,23 +395,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="may" class="level2">
-<h2 class="anchored" data-anchor-id="may">May</h2>
+<section id="january" class="level2">
+<h2 class="anchored" data-anchor-id="january">January</h2>
 <section id="tasks" class="level3">
 <h3 class="anchored" data-anchor-id="tasks">Tasks</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Sow</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Prune</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <ul>
-<li><a href="fruit-veg-herbs.html#sec-carrot" class="quarto-xref"><span>Carrots</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-chives" class="quarto-xref"><span>Chives</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-dill" class="quarto-xref"><span>Dill</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-lettuce" class="quarto-xref"><span>Lettuce</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-mint" class="quarto-xref"><span>Mint</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-rocket" class="quarto-xref"><span>Rocket</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-sage" class="quarto-xref"><span>Sage</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-thyme" class="quarto-xref"><span>Thyme</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-raspberry" class="quarto-xref"><span>Raspberries</span></a></li>
 </ul>
 </div>
 </div>
@@ -257,6 +412,157 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="events" class="level3">
 <h3 class="anchored" data-anchor-id="events">Events</h3>
+<ul>
+<li><a href="outdoor.html#sec-hellebore" class="quarto-xref"><span>Hellebore</span></a> start to appear</li>
+<li><a href="outdoor.html#sec-snowdrop" class="quarto-xref"><span>Snowdrops</span></a> start to appear</li>
+</ul>
+</section>
+</section>
+<section id="february" class="level2">
+<h2 class="anchored" data-anchor-id="february">February</h2>
+<section id="tasks-1" class="level3">
+<h3 class="anchored" data-anchor-id="tasks-1">Tasks</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Deadhead</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Sow</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<ul>
+<li><a href="outdoor.html#sec-orpine" class="quarto-xref"><span>Orpine</span></a></li>
+</ul>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<ul>
+<li><a href="outdoor.html#sec-sweetpea" class="quarto-xref"><span>Lathyrus Odaratus</span></a></li>
+<li><a href="outdoor.html#sec-lobelia" class="quarto-xref"><span>Lobelia</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-pepper" class="quarto-xref"><span>Peppers</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-tomato" class="quarto-xref"><span>Tomatoes</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-thyme" class="quarto-xref"><span>Thyme</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="events-1" class="level3">
+<h3 class="anchored" data-anchor-id="events-1">Events</h3>
+<ul>
+<li><a href="outdoor.html#sec-bluebell" class="quarto-xref"><span>Bluebells</span></a> start to appear</li>
+<li><a href="outdoor.html#sec-snowdrop" class="quarto-xref"><span>Snowdrops</span></a> are flowering</li>
+<li><a href="outdoor.html#sec-hellebore" class="quarto-xref"><span>Hellebore</span></a> are flowering</li>
+<li><a href="outdoor.html#sec-daffodil" class="quarto-xref"><span>Daffodils</span></a> start to appear</li>
+</ul>
+</section>
+</section>
+<section id="march" class="level2">
+<h2 class="anchored" data-anchor-id="march">March</h2>
+<section id="tasks-2" class="level3">
+<h3 class="anchored" data-anchor-id="tasks-2">Tasks</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Other</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Propagate</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-3" role="tab" aria-controls="tabset-3-3" aria-selected="false">Sow</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<ul>
+<li>Clean and refill water butts</li>
+<li>From late March can start feeding most houseplants</li>
+<li>Plant <a href="outdoor.html#sec-dahlia" class="quarto-xref"><span>Dahlia</span></a></li>
+</ul>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<ul>
+<li><a href="outdoor.html#sec-snowdrop" class="quarto-xref"><span>Snowdrops</span></a></li>
+</ul>
+</div>
+<div id="tabset-3-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-3-tab">
+<ul>
+<li><a href="fruit-veg-herbs.html#sec-carrot" class="quarto-xref"><span>Carrots</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-chives" class="quarto-xref"><span>Chives</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-courgette" class="quarto-xref"><span>Courgette</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-dill" class="quarto-xref"><span>Dill</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-lettuce" class="quarto-xref"><span>Lettuce</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-mint" class="quarto-xref"><span>Mint</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-pepper" class="quarto-xref"><span>Peppers</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-rocket" class="quarto-xref"><span>Rocket</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-sage" class="quarto-xref"><span>Sage</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-tomato" class="quarto-xref"><span>Tomatoes</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-thyme" class="quarto-xref"><span>Thyme</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="events-2" class="level3">
+<h3 class="anchored" data-anchor-id="events-2">Events</h3>
+<ul>
+<li><a href="outdoor.html#sec-daffodil" class="quarto-xref"><span>Daffodils</span></a> are flowering</li>
+<li><a href="outdoor.html#sec-currant" class="quarto-xref"><span>Red-flowering currant</span></a> starts to flower</li>
+</ul>
+</section>
+</section>
+<section id="april" class="level2">
+<h2 class="anchored" data-anchor-id="april">April</h2>
+<section id="tasks-3" class="level3">
+<h3 class="anchored" data-anchor-id="tasks-3">Tasks</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Sow</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<ul>
+<li><a href="fruit-veg-herbs.html#sec-carrot" class="quarto-xref"><span>Carrots</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-chives" class="quarto-xref"><span>Chives</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-courgette" class="quarto-xref"><span>Courgette</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-dill" class="quarto-xref"><span>Dill</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-beans" class="quarto-xref"><span>Green beans</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-lettuce" class="quarto-xref"><span>Lettuce</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-mint" class="quarto-xref"><span>Mint</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-rocket" class="quarto-xref"><span>Rocket</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-sage" class="quarto-xref"><span>Sage</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-squash" class="quarto-xref"><span>Squash</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-thyme" class="quarto-xref"><span>Thyme</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="events-3" class="level3">
+<h3 class="anchored" data-anchor-id="events-3">Events</h3>
+<ul>
+<li><a href="outdoor.html#sec-clematis" class="quarto-xref"><span>Clematis</span></a> flowers</li>
+<li><a href="outdoor.html#sec-cowslip" class="quarto-xref"><span>Cowslip</span></a> flowers</li>
+<li><a href="outdoor.html#sec-forget" class="quarto-xref"><span>Forget-me-nots</span></a> flowers</li>
+<li><a href="outdoor.html#sec-geranium_c" class="quarto-xref"><span>Geranium Cranesbill</span></a> flowers</li>
+<li><a href="outdoor.html#sec-quince" class="quarto-xref"><span>Japenese quince</span></a> flowers</li>
+<li><a href="outdoor.html#sec-snowflake" class="quarto-xref"><span>Summer snowflake, Gratiola officinalis</span></a> flowers</li>
+<li><a href="outdoor.html#sec-hops" class="quarto-xref"><span>Hops</span></a> appears</li>
+<li><a href="fruit-veg-herbs.html#sec-grapes" class="quarto-xref"><span>Grapes</span></a> leaves start to appear</li>
+</ul>
+</section>
+</section>
+<section id="may" class="level2">
+<h2 class="anchored" data-anchor-id="may">May</h2>
+<section id="tasks-4" class="level3">
+<h3 class="anchored" data-anchor-id="tasks-4">Tasks</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">Sow</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<ul>
+<li><a href="fruit-veg-herbs.html#sec-carrot" class="quarto-xref"><span>Carrots</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-chives" class="quarto-xref"><span>Chives</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-dill" class="quarto-xref"><span>Dill</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-lettuce" class="quarto-xref"><span>Lettuce</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-mint" class="quarto-xref"><span>Mint</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-mustard" class="quarto-xref"><span>Mustard</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-rocket" class="quarto-xref"><span>Rocket</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-runner" class="quarto-xref"><span>Runner bean</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-sage" class="quarto-xref"><span>Sage</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-squash" class="quarto-xref"><span>Squash</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-thyme" class="quarto-xref"><span>Thyme</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="events-4" class="level3">
+<h3 class="anchored" data-anchor-id="events-4">Events</h3>
 <ul>
 <li><a href="outdoor.html#sec-peony" class="quarto-xref"><span>Peonies</span></a> in full bloom</li>
 <li><a href="outdoor.html#sec-rose" class="quarto-xref"><span>Roses</span></a> starts to bud</li>
@@ -271,100 +577,17 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="june" class="level2">
 <h2 class="anchored" data-anchor-id="june">June</h2>
-<section id="tasks-1" class="level3">
-<h3 class="anchored" data-anchor-id="tasks-1">Tasks</h3>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Sow</a></li></ul>
-<div class="tab-content">
-<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<ul>
-<li><a href="fruit-veg-herbs.html#sec-carrot" class="quarto-xref"><span>Carrots</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-lettuce" class="quarto-xref"><span>Lettuce</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-rocket" class="quarto-xref"><span>Rocket</span></a></li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<section id="events-1" class="level3">
-<h3 class="anchored" data-anchor-id="events-1">Events</h3>
-</section>
-</section>
-<section id="july" class="level2">
-<h2 class="anchored" data-anchor-id="july">July</h2>
-<section id="tasks-2" class="level3">
-<h3 class="anchored" data-anchor-id="tasks-2">Tasks</h3>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Sow</a></li></ul>
-<div class="tab-content">
-<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
-<ul>
-<li><a href="fruit-veg-herbs.html#sec-carrot" class="quarto-xref"><span>Carrots</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-lettuce" class="quarto-xref"><span>Lettuce</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-rocket" class="quarto-xref"><span>Rocket</span></a></li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<section id="events-2" class="level3">
-<h3 class="anchored" data-anchor-id="events-2">Events</h3>
-</section>
-</section>
-<section id="august" class="level2">
-<h2 class="anchored" data-anchor-id="august">August</h2>
-<section id="tasks-3" class="level3">
-<h3 class="anchored" data-anchor-id="tasks-3">Tasks</h3>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"></ul>
-<div class="tab-content">
-
-</div>
-</div>
-</section>
-<section id="events-3" class="level3">
-<h3 class="anchored" data-anchor-id="events-3">Events</h3>
-</section>
-</section>
-<section id="september" class="level2">
-<h2 class="anchored" data-anchor-id="september">September</h2>
-<section id="tasks-4" class="level3">
-<h3 class="anchored" data-anchor-id="tasks-4">Tasks</h3>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">Harvest</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false">Propogate</a></li></ul>
-<div class="tab-content">
-<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
-<ul>
-<li><a href="outdoor.html#sec-sweetpea" class="quarto-xref"><span>Lathyrus Odaratus</span></a></li>
-</ul>
-</div>
-<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
-<ul>
-<li><a href="outdoor.html#sec-peony" class="quarto-xref"><span>Peonies</span></a></li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<section id="events-4" class="level3">
-<h3 class="anchored" data-anchor-id="events-4">Events</h3>
-</section>
-</section>
-<section id="october" class="level2">
-<h2 class="anchored" data-anchor-id="october">October</h2>
 <section id="tasks-5" class="level3">
 <h3 class="anchored" data-anchor-id="tasks-5">Tasks</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true">Propagate</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false">Prune</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true">Sow</a></li></ul>
 <div class="tab-content">
 <div id="tabset-6-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-6-1-tab">
 <ul>
-<li><a href="outdoor.html#sec-dahlia" class="quarto-xref"><span>Dahlia</span></a></li>
-</ul>
-</div>
-<div id="tabset-6-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-2-tab">
-<ul>
-<li><a href="outdoor.html#sec-buddleja" class="quarto-xref"><span>Buddleja</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-carrot" class="quarto-xref"><span>Carrots</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-lettuce" class="quarto-xref"><span>Lettuce</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-mustard" class="quarto-xref"><span>Mustard</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-rocket" class="quarto-xref"><span>Rocket</span></a></li>
 </ul>
 </div>
 </div>
@@ -374,14 +597,21 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="events-5">Events</h3>
 </section>
 </section>
-<section id="november" class="level2">
-<h2 class="anchored" data-anchor-id="november">November</h2>
+<section id="july" class="level2">
+<h2 class="anchored" data-anchor-id="july">July</h2>
 <section id="tasks-6" class="level3">
 <h3 class="anchored" data-anchor-id="tasks-6">Tasks</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-7-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-7-1" role="tab" aria-controls="tabset-7-1" aria-selected="true">Sow</a></li></ul>
 <div class="tab-content">
-
+<div id="tabset-7-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-7-1-tab">
+<ul>
+<li><a href="fruit-veg-herbs.html#sec-carrot" class="quarto-xref"><span>Carrots</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-lettuce" class="quarto-xref"><span>Lettuce</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-mustard" class="quarto-xref"><span>Mustard</span></a></li>
+<li><a href="fruit-veg-herbs.html#sec-rocket" class="quarto-xref"><span>Rocket</span></a></li>
+</ul>
+</div>
 </div>
 </div>
 </section>
@@ -389,14 +619,18 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="events-6">Events</h3>
 </section>
 </section>
-<section id="december" class="level2">
-<h2 class="anchored" data-anchor-id="december">December</h2>
+<section id="august" class="level2">
+<h2 class="anchored" data-anchor-id="august">August</h2>
 <section id="tasks-7" class="level3">
 <h3 class="anchored" data-anchor-id="tasks-7">Tasks</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-8-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-8-1" role="tab" aria-controls="tabset-8-1" aria-selected="true">Sow</a></li></ul>
 <div class="tab-content">
-
+<div id="tabset-8-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-8-1-tab">
+<ul>
+<li><a href="fruit-veg-herbs.html#sec-mustard" class="quarto-xref"><span>Mustard</span></a></li>
+</ul>
+</div>
 </div>
 </div>
 </section>
@@ -404,16 +638,21 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="events-7">Events</h3>
 </section>
 </section>
-<section id="january" class="level2">
-<h2 class="anchored" data-anchor-id="january">January</h2>
+<section id="september" class="level2">
+<h2 class="anchored" data-anchor-id="september">September</h2>
 <section id="tasks-8" class="level3">
 <h3 class="anchored" data-anchor-id="tasks-8">Tasks</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-9-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-1" role="tab" aria-controls="tabset-9-1" aria-selected="true">Prune</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-9-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-1" role="tab" aria-controls="tabset-9-1" aria-selected="true">Harvest</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-9-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-9-2" role="tab" aria-controls="tabset-9-2" aria-selected="false">Propogate</a></li></ul>
 <div class="tab-content">
 <div id="tabset-9-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-9-1-tab">
 <ul>
-<li><a href="fruit-veg-herbs.html#sec-raspberry" class="quarto-xref"><span>Raspberries</span></a></li>
+<li><a href="outdoor.html#sec-sweetpea" class="quarto-xref"><span>Lathyrus Odaratus</span></a></li>
+</ul>
+</div>
+<div id="tabset-9-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-9-2-tab">
+<ul>
+<li><a href="outdoor.html#sec-peony" class="quarto-xref"><span>Peonies</span></a></li>
 </ul>
 </div>
 </div>
@@ -421,31 +660,23 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="events-8" class="level3">
 <h3 class="anchored" data-anchor-id="events-8">Events</h3>
-<ul>
-<li><a href="outdoor.html#sec-hellebore" class="quarto-xref"><span>Hellebore</span></a> start to appear</li>
-<li><a href="outdoor.html#sec-snowdrop" class="quarto-xref"><span>Snowdrops</span></a> start to appear</li>
-</ul>
 </section>
 </section>
-<section id="february" class="level2">
-<h2 class="anchored" data-anchor-id="february">February</h2>
+<section id="october" class="level2">
+<h2 class="anchored" data-anchor-id="october">October</h2>
 <section id="tasks-9" class="level3">
 <h3 class="anchored" data-anchor-id="tasks-9">Tasks</h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-10-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-1" role="tab" aria-controls="tabset-10-1" aria-selected="true">Deadhead</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-2" role="tab" aria-controls="tabset-10-2" aria-selected="false">Sow</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-10-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-1" role="tab" aria-controls="tabset-10-1" aria-selected="true">Propagate</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-10-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-10-2" role="tab" aria-controls="tabset-10-2" aria-selected="false">Prune</a></li></ul>
 <div class="tab-content">
 <div id="tabset-10-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-10-1-tab">
 <ul>
-<li><a href="outdoor.html#sec-orpine" class="quarto-xref"><span>Orpine</span></a></li>
+<li><a href="outdoor.html#sec-dahlia" class="quarto-xref"><span>Dahlia</span></a></li>
 </ul>
 </div>
 <div id="tabset-10-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-10-2-tab">
 <ul>
-<li><a href="outdoor.html#sec-sweetpea" class="quarto-xref"><span>Lathyrus Odaratus</span></a></li>
-<li><a href="outdoor.html#sec-lobelia" class="quarto-xref"><span>Lobelia</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-pepper" class="quarto-xref"><span>Peppers</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-tomato" class="quarto-xref"><span>Tomatoes</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-thyme" class="quarto-xref"><span>Thyme</span></a></li>
+<li><a href="outdoor.html#sec-buddleja" class="quarto-xref"><span>Buddleja</span></a></li>
 </ul>
 </div>
 </div>
@@ -453,96 +684,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="events-9" class="level3">
 <h3 class="anchored" data-anchor-id="events-9">Events</h3>
-<ul>
-<li><a href="outdoor.html#sec-bluebell" class="quarto-xref"><span>Bluebells</span></a> start to appear</li>
-<li><a href="outdoor.html#sec-snowdrop" class="quarto-xref"><span>Snowdrops</span></a> are flowering</li>
-<li><a href="outdoor.html#sec-hellebore" class="quarto-xref"><span>Hellebore</span></a> are flowering</li>
-<li><a href="outdoor.html#sec-daffodil" class="quarto-xref"><span>Daffodils</span></a> start to appear</li>
-</ul>
 </section>
 </section>
-<section id="march" class="level2">
-<h2 class="anchored" data-anchor-id="march">March</h2>
+<section id="november" class="level2">
+<h2 class="anchored" data-anchor-id="november">November</h2>
 <section id="tasks-10" class="level3">
 <h3 class="anchored" data-anchor-id="tasks-10">Tasks</h3>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-11-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-1" role="tab" aria-controls="tabset-11-1" aria-selected="true">Other</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-11-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-2" role="tab" aria-controls="tabset-11-2" aria-selected="false">Propagate</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-11-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-11-3" role="tab" aria-controls="tabset-11-3" aria-selected="false">Sow</a></li></ul>
-<div class="tab-content">
-<div id="tabset-11-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-11-1-tab">
-<ul>
-<li>Clean and refill water butts</li>
-<li>From late March can start feeding most houseplants</li>
-<li>Plant <a href="outdoor.html#sec-dahlia" class="quarto-xref"><span>Dahlia</span></a></li>
-</ul>
-</div>
-<div id="tabset-11-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-11-2-tab">
-<ul>
-<li><a href="outdoor.html#sec-snowdrop" class="quarto-xref"><span>Snowdrops</span></a></li>
-</ul>
-</div>
-<div id="tabset-11-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-11-3-tab">
-<ul>
-<li><a href="fruit-veg-herbs.html#sec-carrot" class="quarto-xref"><span>Carrots</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-chives" class="quarto-xref"><span>Chives</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-courgette" class="quarto-xref"><span>Courgette</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-dill" class="quarto-xref"><span>Dill</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-lettuce" class="quarto-xref"><span>Lettuce</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-mint" class="quarto-xref"><span>Mint</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-pepper" class="quarto-xref"><span>Peppers</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-rocket" class="quarto-xref"><span>Rocket</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-sage" class="quarto-xref"><span>Sage</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-tomato" class="quarto-xref"><span>Tomatoes</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-thyme" class="quarto-xref"><span>Thyme</span></a></li>
-</ul>
-</div>
-</div>
-</div>
 </section>
 <section id="events-10" class="level3">
 <h3 class="anchored" data-anchor-id="events-10">Events</h3>
-<ul>
-<li><a href="outdoor.html#sec-daffodil" class="quarto-xref"><span>Daffodils</span></a> are flowering</li>
-<li><a href="outdoor.html#sec-currant" class="quarto-xref"><span>Red-flowering currant</span></a> starts to flower</li>
-</ul>
 </section>
 </section>
-<section id="april" class="level2">
-<h2 class="anchored" data-anchor-id="april">April</h2>
+<section id="december" class="level2">
+<h2 class="anchored" data-anchor-id="december">December</h2>
 <section id="tasks-11" class="level3">
 <h3 class="anchored" data-anchor-id="tasks-11">Tasks</h3>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-12-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-12-1" role="tab" aria-controls="tabset-12-1" aria-selected="true">Sow</a></li></ul>
-<div class="tab-content">
-<div id="tabset-12-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-12-1-tab">
-<ul>
-<li><a href="fruit-veg-herbs.html#sec-carrot" class="quarto-xref"><span>Carrots</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-chives" class="quarto-xref"><span>Chives</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-courgette" class="quarto-xref"><span>Courgette</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-dill" class="quarto-xref"><span>Dill</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-beans" class="quarto-xref"><span>Green beans</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-lettuce" class="quarto-xref"><span>Lettuce</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-mint" class="quarto-xref"><span>Mint</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-rocket" class="quarto-xref"><span>Rocket</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-sage" class="quarto-xref"><span>Sage</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-tomato" class="quarto-xref"><span>Tomatoes</span></a></li>
-<li><a href="fruit-veg-herbs.html#sec-thyme" class="quarto-xref"><span>Thyme</span></a></li>
-</ul>
-</div>
-</div>
-</div>
 </section>
 <section id="events-11" class="level3">
 <h3 class="anchored" data-anchor-id="events-11">Events</h3>
-<ul>
-<li><a href="outdoor.html#sec-clematis" class="quarto-xref"><span>Clematis</span></a> flowers</li>
-<li><a href="outdoor.html#sec-cowslip" class="quarto-xref"><span>Cowslip</span></a> flowers</li>
-<li><a href="outdoor.html#sec-forget" class="quarto-xref"><span>Forget-me-nots</span></a> flowers</li>
-<li><a href="outdoor.html#sec-geranium_c" class="quarto-xref"><span>Geranium Cranesbill</span></a> flowers</li>
-<li><a href="outdoor.html#sec-quince" class="quarto-xref"><span>Japenese quince</span></a> flowers</li>
-<li><a href="outdoor.html#sec-snowflake" class="quarto-xref"><span>Summer snowflake, Gratiola officinalis</span></a> flowers</li>
-<li><a href="outdoor.html#sec-hops" class="quarto-xref"><span>Hops</span></a> appears</li>
-<li><a href="fruit-veg-herbs.html#sec-grapes" class="quarto-xref"><span>Grapes</span></a> leaves start to appear</li>
-</ul>
 
 
 </section>
@@ -550,380 +709,255 @@ ul.task-list li input[type="checkbox"] {
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
     }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
       });
     }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = true;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
         }
-        return container.innerHTML
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -931,185 +965,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./index.html" class="pagination-link" aria-label="Preface">
