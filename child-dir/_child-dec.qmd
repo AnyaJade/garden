@@ -2,8 +2,4 @@
 
 ### Tasks
 
-:::panel-tabset
-
-:::
-
 ### Events
