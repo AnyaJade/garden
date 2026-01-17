@@ -15,7 +15,7 @@
 - @sec-mint
 - @sec-rocket
 - @sec-sage
-- @sec-tomato
+- @sec-squash
 - @sec-thyme
 
 :::

@@ -8,6 +8,7 @@
 
 - @sec-carrot
 - @sec-lettuce
+- @sec-mustard
 - @sec-rocket
 
 :::

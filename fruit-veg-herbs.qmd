@@ -21,6 +21,7 @@
 - Sow March to July
 - 20cm apart
 - In 2023 and 2024, ended up with very small and few carrots
+- To save seed, make sure no other carrots within 500m. Crosses with carrots are easily identifiable as the thin, white root will be dominant.
 
 ## Chillies {#sec-chilli}
 
@@ -110,6 +111,12 @@
 
 - Sow Feb - May
 
+## Mustard {#sec-mustard}
+
+- Can be sown throughout the summer and into autumn for an early winter crop. 
+- It will withstand some cold but will be killed off by a hard frost. 
+- Spacing of 50cm.
+
 ## Oregano {#sec-oregano}
 
 - Bush in garden 2024
@@ -166,6 +173,15 @@
 - Big bush in garden 2024, left alone
 - Maybe prune back so others can grow?
 
+## Runner bean {#sec-runner}
+
+- Is perennial if the roots are lifted and stored like dahlias, but treated as an annual as the plants grow so quickly.
+- Sow seeds in mid-May and plant out hardened-off plants after the last frost.
+- Allow at least 15cm between rows. 
+- Harvest pods before they are over-mature to avoid stringiness, and pick frequently to encourage more to form. 
+- Leave some on the plant to mature if you wish to save the seed. 
+- Runner beans readily cross-pollinate and need at least 1000m between varieties.
+
 ## Sage {#sec-sage}
 
 - Sow March-May
@@ -183,9 +199,19 @@
 - Left alone in 2024 and got a few strawberries
 - See how can get more and how to propogate
 
+## Squash {#sec-squash}
+
+- Sow Apr-May - warm and danger of frost has passed
+- Sow at least 3 seeds to ensure that if one plant is mainly producing male flowers, there is a higher probability that there will be a female flower on another for pollination. 
+- Allow lots of space (1-1.5m, more for trailing types).
+- Pollination is required for good fruit set, and can be done by hand if insects are scarce. 
+- For winter squash, don't allow too many fruits since need time/resources to develop.
+- Summer squash can be allowed to produce lots of fruit and harvested when ready (it should still be possible to penetrate the skin with a thumbnail).
+- Harvest winter squash when the vines have been cut down by frost. Allow the fruits to ripen further in the sun for several weeks after harvest for maximum storage time.
+
 ## Tomatoes {#sec-tomato}
 
-- Sow Feb - Apr, 15-20 degrees
+- Sow late Feb - Mar, 15-20 degrees
 - Transplant when large enough to handle
 - Plant out in 30cm pots
 - Feed once flowers form

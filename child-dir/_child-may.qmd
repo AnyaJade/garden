@@ -11,8 +11,11 @@
 - @sec-dill
 - @sec-lettuce
 - @sec-mint
+- @sec-mustard
 - @sec-rocket
+- @sec-runner
 - @sec-sage
+- @sec-squash
 - @sec-thyme
 
 :::
